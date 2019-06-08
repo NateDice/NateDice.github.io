@@ -4,13 +4,13 @@ html{
         inset 0px 300px 80px -100px	#1B1217,
         inset 0px -300px 80px -100px #1B1217; 
 
-
+	height:100%;
+	width:100%;
 	background: no-repeat;
 	background-image: url("images/Background.jpg");
 	background-size:cover;
 	position: fixed;
-	height:100%;
-	width:100%;
+
 
 }
 
