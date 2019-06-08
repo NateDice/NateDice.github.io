@@ -1,0 +1,43 @@
+html{
+
+	 box-shadow: 
+        inset 0px 300px 80px -100px	#1B1217,
+        inset 0px -300px 80px -100px #1B1217; 
+
+
+	background: no-repeat;
+	background-image: url("background.jpg");
+	background-size:cover;
+	position: fixed;
+	height:100%;
+	width:100%;
+
+}
+
+body{
+	margin: 0px;
+
+
+}
+
+.bar{
+	width: 100%;
+	padding: 50px;
+	background-color: rgba(0,0,0,0.5);
+	position: fixed;
+	top:50%;
+	transform: translate(0%, -50%);
+	text-align: center;
+}
+a{
+	color: white;
+	transition: 2s;
+}
+a:link{
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	letter-spacing: 50px;
+	transition: 3s;
+}
